@@ -6,6 +6,10 @@ fn main() {
 
     let mut queen = pawn.promote();
     queen.diagonal();
+
+    println!("{}", 100_i32.rem_euclid(60).to_string());
+    println!("{}", (17_i32 + 3_i32.div_euclid(60)).rem_euclid(24).to_string());
+    println!("{}", 70_i32.div_euclid(60).to_string());
 }
 
 fn rust_is_smart_and_that_can_be_confusing() {
