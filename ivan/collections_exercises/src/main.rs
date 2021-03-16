@@ -144,16 +144,75 @@ fn main() {
     // println!("===> first element: {}", first);
     //
 
-    let v = vec!(100, 32, 57);
-    for i in &v {
-        println!("==> {}", i);
+    // let v = vec!(100, 32, 57);
+    // for i in &v {
+    //     println!("==> {}", i);
+    // }
+    //
+    // let mut v = vec![100, 32, 57];
+    // for i in &mut v {
+    //     *i += 50;
+    //     println!("==> {}", i);
+    // }
+    //
+    // println!("{:?}", v);
+
+    //
+    // #[derive(Debug)]
+    // enum SpreadsheetCell {
+    //     Int(i32),
+    //     Float(f64),
+    //     Text(String),
+    // }
+    //
+    // let row = vec![
+    //     SpreadsheetCell::Int(3)
+    // ];
+    //
+    // let s = String::new();
+    // println!("===> {}", s);
+    //
+    //
+    // let mut s = String::from("foo");
+    //
+    // s.push_str("bar");
+    // println!("==> {}", s);
+
+    // let s1 = String::from("hello!");
+    //
+    // let s = &s1[..];
+    // println!("{}", s);
+    //
+    //
+    // for c in "hello".bytes() {
+    //     println!("==> 1: {}", c);
+    // }
+    //
+    //
+    // use std::collections::HashMap;
+    //
+    // let mut scores = HashMap::new();
+    //
+    // scores.insert(String::from("Blue"), 10);
+    // scores.insert(String::from("Yellow"), 50);
+    // println!("==> {:?}", scores);
+    //
+    // let teams = vec![String::from("Blue"), String::from("Yellow")];
+    // let initial_scores = vec![10];
+    //
+    // let scores: HashMap<_, _> = teams.into_iter().zip(initial_scores.into_iter()).collect();
+    // println!("==> {:?}", scores);
+
+    use std::collections::HashMap;
+
+    let text = "hello world wonderful world";
+
+    let mut map = HashMap::new();
+
+    for word in text.split_whitespace() {
+        let count = map.entry(word).or_insert(0);
+        *count += 1;
     }
 
-    let mut v = vec![100, 32, 57];
-    for i in &mut v {
-        *i += 50;
-        println!("==> {}", i);
-    }
-
-    println!("{:?}", v);
+    println!("{:?}", map);
 }
