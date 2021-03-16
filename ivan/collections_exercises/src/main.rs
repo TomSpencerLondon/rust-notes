@@ -118,28 +118,42 @@ fn add_if_does_not_exist(word: String, vector: &mut Vec<String>) {
 }
 
 fn main() {
-    let test_nums = vec![1, 1, 1, 1, 7, 7, 8, 7, 9];
-    let test_phrase = String::from("Little boy fifteen apples and twelve oranges");
+    // let test_nums = vec![1, 1, 1, 1, 7, 7, 8, 7, 9];
+    // let test_phrase = String::from("Little boy fifteen apples and twelve oranges");
+    //
+    // let mut test_string_vec = vec![
+    //     String::from("one"),
+    //     String::from("two"),
+    //     String::from("three"),
+    // ];
+    // add_if_does_not_exist(String::from("four"), &mut test_string_vec);
+    //
+    // println!("String vec {:?}", test_string_vec);
+    //
+    // println!("Numbers {:?}", test_nums);
+    // println!("Number properties: {:?}", num_properties(&test_nums));
+    // println!("Original phrase: {}", test_phrase);
+    // println!("Phrase in pig latin: {}", pig_latin(&test_phrase));
+    // println!("------------------------------------------------");
+    // init_employee_registry();
+    //
+    // let mut v = vec![1, 2, 3, 4, 5];
+    // v.push(6);
+    // let first = &v[0];
+    //
+    // println!("===> first element: {}", first);
+    //
 
-    let mut test_string_vec = vec![
-        String::from("one"),
-        String::from("two"),
-        String::from("three"),
-    ];
-    add_if_does_not_exist(String::from("four"), &mut test_string_vec);
+    let v = vec!(100, 32, 57);
+    for i in &v {
+        println!("==> {}", i);
+    }
 
-    println!("String vec {:?}", test_string_vec);
+    let mut v = vec![100, 32, 57];
+    for i in &mut v {
+        *i += 50;
+        println!("==> {}", i);
+    }
 
-    println!("Numbers {:?}", test_nums);
-    println!("Number properties: {:?}", num_properties(&test_nums));
-    println!("Original phrase: {}", test_phrase);
-    println!("Phrase in pig latin: {}", pig_latin(&test_phrase));
-    println!("------------------------------------------------");
-    init_employee_registry();
-
-    let mut v = vec![1, 2, 3, 4, 5];
-    v.push(6);
-    let first = &v[0];
-
-    println!("===> first element: {}", first);
+    println!("{:?}", v);
 }
