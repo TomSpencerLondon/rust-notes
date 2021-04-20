@@ -8,6 +8,7 @@ fn main() {
     let firstword = first_word(string1.as_str());
     println!("The longest string is {}", result);
     println!("this is first word {}", firstword);
+    hello_there();
 }
 
 
@@ -38,4 +39,15 @@ fn first_word(s: &str) -> &str {
     }
 
     &s[..]
+}
+
+fn hello_there(){
+    let string1 = String::from("long string is long");
+    let result;
+    {
+        let string2 = String::from("xyz");
+        result = longest(string1.as_str(), string2.as_str());
+    }
+
+    println!("The longest string is {}", string1);
 }
