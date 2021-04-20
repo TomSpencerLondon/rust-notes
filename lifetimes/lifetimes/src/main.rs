@@ -22,11 +22,13 @@ fn what_is_a_lifetime(){
 }
 
 fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
-    if x.len() > y.len(){
-        x
-    } else {
-        y
-    }
+    // if x.len() > y.len(){
+    //     x
+    // } else {
+    //     y
+    // }
+
+    &x[0..1]
 }
 
 fn first_word(s: &str) -> &str {
