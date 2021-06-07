@@ -7,8 +7,6 @@
     <list default="true" id="ca700ec4-7e97-40f1-b9c0-b76395dc7dce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/15-concurrency/concurrency/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/15-concurrency/concurrency/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-concurrency/concurrency/target/debug/.fingerprint/concurrency-c3bbf1254db2de6d/bin-concurrency" beforeDir="false" afterPath="$PROJECT_DIR$/15-concurrency/concurrency/target/debug/.fingerprint/concurrency-c3bbf1254db2de6d/bin-concurrency" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-concurrency/concurrency/target/debug/.fingerprint/concurrency-c3bbf1254db2de6d/output-bin-concurrency" beforeDir="false" afterPath="$PROJECT_DIR$/15-concurrency/concurrency/target/debug/.fingerprint/concurrency-c3bbf1254db2de6d/output-bin-concurrency" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/15-concurrency/concurrency/target/debug/concurrency" beforeDir="false" afterPath="$PROJECT_DIR$/15-concurrency/concurrency/target/debug/concurrency" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/15-concurrency/concurrency/target/debug/deps/concurrency" beforeDir="false" afterPath="$PROJECT_DIR$/15-concurrency/concurrency/target/debug/deps/concurrency" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/15-concurrency/concurrency/target/debug/deps/concurrency.dSYM/Contents/Resources/DWARF/concurrency" beforeDir="false" afterPath="$PROJECT_DIR$/15-concurrency/concurrency/target/debug/deps/concurrency.dSYM/Contents/Resources/DWARF/concurrency" afterDir="false" />
@@ -88,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623003816793</updated>
-      <workItem from="1623003818812" duration="2298000" />
+      <workItem from="1623003818812" duration="2719000" />
     </task>
     <servers />
   </component>
@@ -96,21 +94,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="698" height="207" key="GridCell.Tab.0.bottom" timestamp="1623022426439">
+    <state width="698" height="207" key="GridCell.Tab.0.bottom" timestamp="1623042137715">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="698" height="207" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1623022426439" />
-    <state width="698" height="207" key="GridCell.Tab.0.center" timestamp="1623022426438">
+    <state width="698" height="207" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1623042137715" />
+    <state width="698" height="207" key="GridCell.Tab.0.center" timestamp="1623042137714">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="698" height="207" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1623022426438" />
-    <state width="698" height="207" key="GridCell.Tab.0.left" timestamp="1623022426438">
+    <state width="698" height="207" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1623042137714" />
+    <state width="698" height="207" key="GridCell.Tab.0.left" timestamp="1623042137714">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="698" height="207" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1623022426438" />
-    <state width="698" height="207" key="GridCell.Tab.0.right" timestamp="1623022426439">
+    <state width="698" height="207" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1623042137714" />
+    <state width="698" height="207" key="GridCell.Tab.0.right" timestamp="1623042137715">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="698" height="207" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1623022426439" />
+    <state width="698" height="207" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1623042137714" />
   </component>
 </project>
