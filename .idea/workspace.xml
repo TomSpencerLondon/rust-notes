@@ -2,14 +2,13 @@
 <project version="4">
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/15-concurrency/concurrency/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/15-tom-drop/drop-practice/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca700ec4-7e97-40f1-b9c0-b76395dc7dce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/rust-notes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-notes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/15-concurrency/concurrency/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/15-concurrency/concurrency/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-concurrency/concurrency/target/debug/concurrency" beforeDir="false" afterPath="$PROJECT_DIR$/15-concurrency/concurrency/target/debug/concurrency" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-concurrency/concurrency/target/debug/deps/concurrency" beforeDir="false" afterPath="$PROJECT_DIR$/15-concurrency/concurrency/target/debug/deps/concurrency" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-concurrency/concurrency/target/debug/deps/concurrency.dSYM/Contents/Resources/DWARF/concurrency" beforeDir="false" afterPath="$PROJECT_DIR$/15-concurrency/concurrency/target/debug/deps/concurrency.dSYM/Contents/Resources/DWARF/concurrency" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +40,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Cargo.Run drop-practice">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -69,6 +73,29 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Run drop-practice" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run --package drop-practice --bin drop-practice" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/15-tom-drop/drop-practice" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="CompoundRunConfigurationType">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Cargo.Run drop-practice" />
+      <item itemvalue="Cargo.Run concurrency" />
+      <item itemvalue="Compound.Unnamed" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cargo.Run concurrency" />
@@ -77,6 +104,7 @@
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,7 +114,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623003816793</updated>
-      <workItem from="1623003818812" duration="2719000" />
+      <workItem from="1623003818812" duration="3008000" />
+      <workItem from="1623701570510" duration="1722000" />
     </task>
     <servers />
   </component>
@@ -94,21 +123,33 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="698" height="207" key="GridCell.Tab.0.bottom" timestamp="1623042137715">
+    <state x="416" y="23" key="#Project_Structure" timestamp="1623702057896">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="698" height="207" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1623042137715" />
-    <state width="698" height="207" key="GridCell.Tab.0.center" timestamp="1623042137714">
+    <state x="416" y="23" key="#Project_Structure/0.23.1440.810@0.23.1440.810" timestamp="1623702057896" />
+    <state x="313" y="93" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623702092112">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="698" height="207" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1623042137714" />
-    <state width="698" height="207" key="GridCell.Tab.0.left" timestamp="1623042137714">
+    <state x="313" y="93" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.810@0.23.1440.810" timestamp="1623702092112" />
+    <state width="821" height="207" key="GridCell.Tab.0.bottom" timestamp="1623705118706">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="698" height="207" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1623042137714" />
-    <state width="698" height="207" key="GridCell.Tab.0.right" timestamp="1623042137715">
+    <state width="821" height="207" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1623705118706" />
+    <state width="821" height="207" key="GridCell.Tab.0.center" timestamp="1623705118706">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="698" height="207" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1623042137714" />
+    <state width="821" height="207" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1623705118706" />
+    <state width="821" height="207" key="GridCell.Tab.0.left" timestamp="1623705118705">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state width="821" height="207" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1623705118705" />
+    <state width="821" height="207" key="GridCell.Tab.0.right" timestamp="1623705118706">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state width="821" height="207" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1623705118706" />
+    <state x="416" y="23" key="SettingsEditor" timestamp="1623702040420">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="416" y="23" key="SettingsEditor/0.23.1440.810@0.23.1440.810" timestamp="1623702040420" />
   </component>
 </project>
