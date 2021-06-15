@@ -1,14 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/15-concurrency/concurrency/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/15-tom-drop/drop-practice/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca700ec4-7e97-40f1-b9c0-b76395dc7dce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/rust-notes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-notes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15-tom-drop/drop-practice/src/drop.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-concurrency/concurrency/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/15-concurrency/concurrency/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-concurrency/concurrency/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/15-concurrency/concurrency/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-tom-drop/drop-practice/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/15-tom-drop/drop-practice/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/.fingerprint/drop-practice-6731cbc4e8bead9b/bin-drop-practice" beforeDir="false" afterPath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/.fingerprint/drop-practice-6731cbc4e8bead9b/bin-drop-practice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/.fingerprint/drop-practice-6731cbc4e8bead9b/bin-drop-practice.json" beforeDir="false" afterPath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/.fingerprint/drop-practice-6731cbc4e8bead9b/bin-drop-practice.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/.fingerprint/drop-practice-6731cbc4e8bead9b/dep-bin-drop-practice" beforeDir="false" afterPath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/.fingerprint/drop-practice-6731cbc4e8bead9b/dep-bin-drop-practice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/.fingerprint/drop-practice-6731cbc4e8bead9b/output-bin-drop-practice" beforeDir="false" afterPath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/.fingerprint/drop-practice-6731cbc4e8bead9b/output-bin-drop-practice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/deps/drop_practice" beforeDir="false" afterPath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/deps/drop_practice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/deps/drop_practice.d" beforeDir="false" afterPath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/deps/drop_practice.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/deps/drop_practice.dSYM/Contents/Resources/DWARF/drop_practice" beforeDir="false" afterPath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/deps/drop_practice.dSYM/Contents/Resources/DWARF/drop_practice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/drop-practice" beforeDir="false" afterPath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/drop-practice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/drop-practice.d" beforeDir="false" afterPath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/debug/drop-practice.d" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +66,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/15-tom-drop/drop-practice/src" />
+    </key>
   </component>
   <component name="RunManager" selected="Cargo.Run drop-practice">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
@@ -122,6 +158,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="416" y="23" key="#Project_Structure" timestamp="1623702057896">
       <screen x="0" y="23" width="1440" height="810" />
@@ -151,5 +199,9 @@
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="416" y="23" key="SettingsEditor/0.23.1440.810@0.23.1440.810" timestamp="1623702040420" />
+    <state x="-1711" y="60" width="905" height="1032" key="search.everywhere.popup" timestamp="1623731324658">
+      <screen x="-3360" y="-258" width="3360" height="1417" />
+    </state>
+    <state x="-1711" y="60" width="905" height="1032" key="search.everywhere.popup/-5120.-258.1760.1417/0.23.1792.1097/-3360.-258.3360.1417@-3360.-258.3360.1417" timestamp="1623731324658" />
   </component>
 </project>
