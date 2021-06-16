@@ -1,6 +1,8 @@
 use std::thread;
 use std::time::Duration;
 mod move_closure;
+mod mutex_practice;
+mod mutex_threads;
 
 fn main() {
     // Ex 1 - Creating a new thread
