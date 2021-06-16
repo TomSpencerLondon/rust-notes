@@ -1,4 +1,7 @@
 mod drop;
+mod message_passing;
+mod multiple_messages;
+mod cloned_transmitter;
 
 // use std::io;
 // use std::mem::drop;

@@ -5,8 +5,10 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/15-concurrency/concurrency/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/15-tom-drop/drop-practice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16-using-threads-to-run-code-simultaneously/threads/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/15-concurrency/concurrency/target" />
       <excludeFolder url="file://$MODULE_DIR$/15-tom-drop/drop-practice/target" />
+      <excludeFolder url="file://$MODULE_DIR$/16-using-threads-to-run-code-simultaneously/threads/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
