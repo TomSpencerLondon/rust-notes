@@ -25,15 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca700ec4-7e97-40f1-b9c0-b76395dc7dce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/15-tom-drop/drop-practice/src/cloned_transmitter.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-tom-drop/drop-practice/src/message_passing.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-tom-drop/drop-practice/src/multiple_messages.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16-using-threads-to-run-code-simultaneously/threads/src/move_closure.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rust-notes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-notes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-concurrency/concurrency/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/15-concurrency/concurrency/target/.rustc_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-tom-drop/drop-practice/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/15-tom-drop/drop-practice/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/15-tom-drop/drop-practice/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16-using-threads-to-run-code-simultaneously/threads/src/mutex_threads.rs" beforeDir="false" afterPath="$PROJECT_DIR$/16-using-threads-to-run-code-simultaneously/threads/src/mutex_threads.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16-using-threads-to-run-code-simultaneously/threads/target/debug/.fingerprint/threads-64a1c924b53e703e/bin-threads" beforeDir="false" afterPath="$PROJECT_DIR$/16-using-threads-to-run-code-simultaneously/threads/target/debug/.fingerprint/threads-64a1c924b53e703e/bin-threads" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16-using-threads-to-run-code-simultaneously/threads/target/debug/.fingerprint/threads-64a1c924b53e703e/output-bin-threads" beforeDir="false" afterPath="$PROJECT_DIR$/16-using-threads-to-run-code-simultaneously/threads/target/debug/.fingerprint/threads-64a1c924b53e703e/output-bin-threads" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16-using-threads-to-run-code-simultaneously/threads/target/debug/deps/threads.d" beforeDir="false" afterPath="$PROJECT_DIR$/16-using-threads-to-run-code-simultaneously/threads/target/debug/deps/threads.d" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +76,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/16-using-threads-to-run-code-simultaneously/threads/src" />
       <recent name="$PROJECT_DIR$/15-tom-drop/drop-practice/src" />
     </key>
   </component>
@@ -170,7 +167,7 @@
       <updated>1623003816793</updated>
       <workItem from="1623003818812" duration="3008000" />
       <workItem from="1623701570510" duration="1722000" />
-      <workItem from="1623789785242" duration="1858000" />
+      <workItem from="1623789785242" duration="3529000" />
     </task>
     <servers />
   </component>
