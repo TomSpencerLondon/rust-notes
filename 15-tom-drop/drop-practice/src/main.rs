@@ -4,7 +4,7 @@ mod multiple_messages;
 mod cloned_transmitter;
 
 // use std::io;
-// use std::mem::drop;
+use std::mem::drop;
 // use std::cmp::Ordering;
 
 struct CustomSmartPointer {
@@ -39,11 +39,11 @@ fn main() {
     // println!("CustomSmartPointer dropped before the end of main.");
 
     // b) Do this
-    // let c = CustomSmartPointer {
-    //     data: String::from("some data"),
-    // };
-    //
-    // drop(c);
-    // println!("CustomSmartPointer dropped before end of main");
+    let c = CustomSmartPointer {
+        data: String::from("some data"),
+    };
+
+    drop(c);
+    println!("CustomSmartPointer dropped before end of main");
 
 }

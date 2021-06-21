@@ -2,11 +2,11 @@ struct Character {
     name: String,
 }
 
-impl Drop for Character {
-    fn drop(&mut self) {
-        println!("{} went away", self.name)
-    }
-}
+// impl Drop for Character {
+//     fn drop(&mut self) {
+//         println!("{} went away", self.name)
+//     }
+// }
 
 fn main() {
     let steve = Character {
