@@ -4,9 +4,9 @@ use std::io::Read;
 use std::io;
 
 fn main() {
-    let f = File::open("hello.txt").unwrap_or_else(|error| {
+    let f = File::open("single-thread.txt").unwrap_or_else(|error| {
         if error.kind() == ErrorKind::NotFound {
-            File::create("hello.txt").unwrap_or_else(|error| {
+            File::create("single-thread.txt").unwrap_or_else(|error| {
                 panic!("Problem creating the file: {:?}", error);
             })
         }else {
@@ -16,5 +16,5 @@ fn main() {
 }
 
 fn read_username_from_file() -> Result<File, io::Error> {
-    ok(File::open("hello.txt")?)
+    ok(File::open("single-thread.txt")?)
 }

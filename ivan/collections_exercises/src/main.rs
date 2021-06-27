@@ -178,13 +178,13 @@ fn main() {
     // s.push_str("bar");
     // println!("==> {}", s);
 
-    // let s1 = String::from("hello!");
+    // let s1 = String::from("single-thread!");
     //
     // let s = &s1[..];
     // println!("{}", s);
     //
     //
-    // for c in "hello".bytes() {
+    // for c in "single-thread".bytes() {
     //     println!("==> 1: {}", c);
     // }
     //
@@ -205,7 +205,7 @@ fn main() {
 
     use std::collections::HashMap;
 
-    let text = "hello world wonderful world";
+    let text = "single-thread world wonderful world";
 
     let mut map = HashMap::new();
 

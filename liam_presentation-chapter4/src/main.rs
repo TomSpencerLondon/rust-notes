@@ -13,15 +13,15 @@ fn main() {
 }
 
 fn rust_is_smart_and_that_can_be_confusing() {
-    let mut s = String::from("hello");
+    let mut s = String::from("single-thread");
     let r1 = &s;
     let r2 = &s;
 
     println!("{}, {}, and", r1, r2);
 
-    s.push_str("hello");
+    s.push_str("single-thread");
     let r3 = &mut s;
-    r3.push_str("hello");
+    r3.push_str("single-thread");
 }
 
 struct Pawn {
