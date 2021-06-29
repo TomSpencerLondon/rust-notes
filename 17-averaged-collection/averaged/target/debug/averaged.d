@@ -1,0 +1,1 @@
+/Users/tomspencer/Desktop/rust-notes/17-averaged-collection/averaged/target/debug/averaged: /Users/tomspencer/Desktop/rust-notes/17-averaged-collection/averaged/src/lib.rs /Users/tomspencer/Desktop/rust-notes/17-averaged-collection/averaged/src/main.rs
