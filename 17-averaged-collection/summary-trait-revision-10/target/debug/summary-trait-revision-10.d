@@ -1,0 +1,1 @@
+/Users/tomspencer/Desktop/training/rust-notes/17-averaged-collection/summary-trait-revision-10/target/debug/summary-trait-revision-10: /Users/tomspencer/Desktop/training/rust-notes/17-averaged-collection/summary-trait-revision-10/src/lib.rs /Users/tomspencer/Desktop/training/rust-notes/17-averaged-collection/summary-trait-revision-10/src/main.rs
